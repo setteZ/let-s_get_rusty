@@ -15,6 +15,8 @@ esp-hal = { version = "~1.2.2", features = ["esp32c6"] }
 esp-bootloader-esp-idf = { version = "0.6.0", features = ["esp32c6"] }
 
 critical-section = "1.2.0"
+smart-leds = "0.4.0"
+ws2812-spi = "0.5.1"
 
 
 # For fine tuning these settings, please refer to https://doc.rust-lang.org/cargo/reference/profiles.html
