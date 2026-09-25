@@ -19,3 +19,23 @@ From the list I decided to go with the ESP32-C6 because there a nice little boar
 bucks: the [ESP32-C6-Zero](https://docs.waveshare.com/ESP32-C6-Zero?variant=ESP32-C6-Zero). I can't
 resist stamp-sized boards!
 
+## Toolchain
+
+At the moment of writing
+
+```bash
+$ rustc -V
+rustc 1.98.1 (48a229cea 2026-09-01)
+```
+
+Let's start from [esp-rust](https://github.com/esp-rs).
+
+```bash
+rustup toolchain install stable --component rust-src
+rustup target add riscv32imac-unknown-none-elf # For ESP32-C6 and ESP32-H2
+cargo install esp-generate --locked
+cargo install espflash --locked
+
+```
+and the minimal is ready.
+
