@@ -39,3 +39,10 @@ cargo install espflash --locked
 ```
 and the minimal is ready.
 
+# Projects
+
+## Blink
+
+Let's start with the king of al examples: "Hello, world" — in the flavour of the embedded worls, the
+[blink](./01_blink).
+
