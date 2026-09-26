@@ -15,6 +15,8 @@ esp-hal = { version = "~1.2.2", features = ["esp32c6"] }
 esp-bootloader-esp-idf = { version = "0.6.0", features = ["esp32c6"] }
 
 critical-section = "1.2.0"
+nb = "1.1.0"
+heapless = "0.9.3"
 
 
 # For fine tuning these settings, please refer to https://doc.rust-lang.org/cargo/reference/profiles.html
