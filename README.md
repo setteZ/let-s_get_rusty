@@ -46,3 +46,6 @@ and the minimal is ready.
 Let's start with the king of al examples: "Hello, world" — in the flavour of the embedded worls, the
 [blink](./01_blink).
 
+## Echo
+
+The mythical serial [echo](./02_echo)
